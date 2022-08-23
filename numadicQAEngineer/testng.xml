@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Numadic Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.Numadic.Util.Reporting" />
+	</listeners>
+	
+
+	<test name="DemoBlaze Automation">
+		<classes>
+			<class name="com.Numadic.TestCases.TestCases"></class>
+			
+
+		</classes>
+	</test>
+</suite>
